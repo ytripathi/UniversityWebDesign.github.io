@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>University Website Practise</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    </head>
+
+    <body>
+        
+        <!-- HOME -->
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/logo.png" alt="LoGo"></a>
+                <div class="nav-link" id="nav-link">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">COURSE</a></li>
+                        <li><a href="">BLOG</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>    
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras posuere vel sapien cursus dapibus. Aenean porttitor convallis lectus vitae placerat.</p>
+                <a class="hero-btn" href="">Visit Us To Know More</a>
+            </div>
+        </section>
+
+        <!-- COURSES -->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            
+             <!-- Adding Row-Column -->
+             <div class="row">
+
+                 <div class="course-col">
+                     <h3>Intermediate</h3>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                         Cras posuere vel sapien cursus dapibus. 
+                         Aenean porttitor convallis lectus vitae placerat.</p>
+                 </div>   <!--Col 1-->
+
+                 <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Cras posuere vel sapien cursus dapibus. 
+                        Aenean porttitor convallis lectus vitae placerat.</p>
+                </div>   <!--Col 2-->
+
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Cras posuere vel sapien cursus dapibus. 
+                        Aenean porttitor convallis lectus vitae placerat.</p>
+                </div>   <!--Col 3-->
+
+             </div>  <!--Row 1-->
+        </section>
+
+        <!-- campus -->
+        <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+            <div class="row">
+
+                <div class="campus-col">
+                  <img src="Images/london.png" alt="">
+                  <div class="layer">
+                      <h3>LONDON</h3>
+                  </div>
+                </div> <!--col 1-->
+
+                <div class="campus-col">
+                    <img src="Images/newyork.png" alt="">
+                    <div class="layer">
+                        <h3>NEW YORK</h3>
+                    </div>
+                  </div> <!--col 2-->
+  
+                  <div class="campus-col">
+                    <img src="Images/washington.png" alt="">
+                    <div class="layer">
+                        <h3>WASHINTON</h3>
+                    </div>
+                  </div> <!--col 3-->
+              </div> <!--Row-->
+        </section>
+        
+        <!-- facilities -->
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+            <div class="row">
+
+              <div class="facilities-col">
+               <img src="Images/library.png" alt="">
+               <h3>World Class Library</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Cras posuere vel sapien cursus dapibus. </p>
+              </div> <!--col1-->
+
+              <div class="facilities-col">
+               <img src="Images/basketball.png" alt="">
+               <h3>Largest Playground</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Cras posuere vel sapien cursus dapibus. </p>
+              </div> <!--col1-->
+
+              <div class="facilities-col">
+                <img src="Images/cafeteria.png" alt="">
+                <h3>Tasty & Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                 Cras posuere vel sapien cursus dapibus. </p>
+               </div> <!--col1-->
+            </div> <!--row-->
+        </section>
+
+        <!----- testimonial  ----->
+        <section class="testimonial">
+            <h1>What our Student Says</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </section>
+
+        <div class="row">
+
+          <div class="testi-col">
+              <img src="Images/user1.jpg" alt="">
+              <div>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Cras posuere vel sapien cursus dapibus. 
+                    Aenean porttitor convallis lectus vitae placerat</p>
+                    <h3>Christine Berley</h3>
+              </div>
+          </div> <!--col1-->
+
+          <div class="testi-col">
+            <img src="Images/user2.jpg" alt="">
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                  Cras posuere vel sapien cursus dapibus. 
+                  Aenean porttitor convallis lectus vitae placerat</p>
+                  <h3>David Byer</h3>
+            </div>
+        </div> <!--col1-->
+        </div>
+
+        <!---- call to action ---->
+        <section class="cta">
+            <h1>Enroll For Our Courses <br>Anywhere From The World.</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+        <script src="action.js"></script>
+    </body>
+</html>
+
